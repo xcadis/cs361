@@ -14,14 +14,20 @@ Note this generator will only work in command mode when communicating with other
 **Sample Input File:**
 
 input_year,input_state
+
 2019,Alabama
+
 2012,Colorado
+
 2008,Colorado
 
 **Sample Output File (to be generated in either Command or GUI launches):**
 
 
 input_year,input_state,output_population_size
+
 2019,Alabama,4903185
+
 2012,Colorado,5187582
+
 2008,Colorado,4939456
