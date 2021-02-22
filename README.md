@@ -1,6 +1,6 @@
 # cs361
-**Population Generator Project - OSU Software Engineering CS361
-**
+**Population Generator Project - OSU Software Engineering CS361**
+
 Purpose: This microservice will provide the population size given an input year and U.S. State. The input year will be limited to U.S. Census Data available through the ACS Datastore for years 2005-2019. 
 
 **How to use:** 
@@ -11,14 +11,14 @@ Purpose: This microservice will provide the population size given an input year 
 
 Note this generator will only work in command mode when communicating with other generator microservices. 
 
-**Sample Input File: **
+**Sample Input File:**
 
 input_year,input_state
 2019,Alabama
 2012,Colorado
 2008,Colorado
 
-**Sample Output File (to be generated in either Command or GUI launches): **
+**Sample Output File (to be generated in either Command or GUI launches):**
 
 
 input_year,input_state,output_population_size
