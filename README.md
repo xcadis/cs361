@@ -7,7 +7,13 @@ Purpose: This microservice will provide the population size given an input year 
 
   Program can run in two ways: 
   1. Command Mode - In this mode, a user needs to submit an argument (the input file, input.csv, see below for formatting) when running the program from the command line. When executed the program will return an output file, output.csv, in the same respective folder where the program was run from. 
-  2. GUI Mode - In this mode, user needs to run the program without any arguments and a Tkinter GUI will launch accordingly. This GUI will allow users to submit state/year in order to generate the respective population size. User can run unlimited number of searches, all of which will be saved into output.csv file while also being printed to the GUI. 
+
+To launch in command mode, run: python3 JoeyPunzel_Assignment3_PopulationGenerator.py input.csv
+
+
+  3. GUI Mode - In this mode, user needs to run the program without any arguments and a Tkinter GUI will launch accordingly. This GUI will allow users to submit state/year in order to generate the respective population size. User can run unlimited number of searches, all of which will be saved into output.csv file while also being printed to the GUI. 
+
+To launch in GUI mode, run: python3 JoeyPunzel_Assignment3_PopulationGenerator.py
 
 Note this generator will only work in command mode when communicating with other generator microservices. 
 
