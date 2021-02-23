@@ -19,7 +19,6 @@ To launch in command mode, run: python3 population-generator.py request_person_g
 
 To launch in GUI mode, run: python3 population-generator.py      (no arguments) 
 
-Note this generator will only work in command mode when communicating with other generator microservices. 
 
 **Sample Input File for Population Generator:**
 
