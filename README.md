@@ -13,7 +13,7 @@ To launch in command mode, run: python3 population-generator.py input.csv
 
   2. Command Mode Feeding Into the Person Generator - In this mode, the population generator is used to communicate with the person generator, by running the person generator directly. In this case, the input.csv file is implied (i.e. needs to be created before executed) and needs to be in format that the Person Generator expects (not the format of the population generator). Once this option is executed, it will generate an output.csv file specific to the Person Generator. 
  
-To launch in command mode, run: python3 population-generator.py request_person_generator 
+To launch in command mode to indirectly run person generator, run: python3 population-generator.py request_person_generator 
 
   3. GUI Mode - In this mode, user needs to run the program without any arguments and a Tkinter GUI will launch accordingly. This GUI will allow users to submit state/year in order to generate the respective population size. User can run unlimited number of searches, all of which will be saved into output.csv file while also being printed to the GUI. 
 
